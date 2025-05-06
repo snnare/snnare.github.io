@@ -111,3 +111,10 @@ footer {
     align-items: center;
   }
 }
+.project-image {
+  width: 100px;
+  height: 240;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
