@@ -1,77 +1,63 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            margin: 20px;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f4f4f4;
-        }
-        h1, h2 {
-            color: #007bff;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .project {
-            margin-bottom: 20px;
-            padding-bottom: 15px;
-            border-bottom: 1px solid #eee;
-        }
-        .project:last-child {
-            border-bottom: none;
-        }
-        .project h3 {
-            color: #28a745;
-            margin-top: 0;
-        }
-        .project a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        .project a:hover {
-            text-decoration: underline;
-        }
-        .contact-info {
-            margin-top: 30px;
-            padding-top: 20px;
-            border-top: 1px solid #eee;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Software Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>¡Hola! Soy [Tu Nombre]</h1>
-            <p>Un apasionado de [tus intereses/campo] con experiencia en [tus habilidades].</p>
-        </header>
-
-        <section>
-            <h2>Proyectos</h2>
-            <div class="project">
-                <h3><a href="[enlace-al-proyecto-1]">Nombre del Proyecto 1</a></h3>
-                <p>[Breve descripción del proyecto]</p>
-            </div>
-            <div class="project">
-                <h3><a href="[enlace-al-proyecto-2]">Nombre del Proyecto 2</a></h3>
-                <p>[Breve descripción del proyecto]</p>
-            </div>
-            </section>
-
-        <section class="contact-info">
-            <h2>Contacto</h2>
-            <p>Puedes encontrarme en <a href="[enlace a tu GitHub]">GitHub</a> o enviarme un correo a <a href="mailto:[tu correo electrónico]">[tu correo electrónico]</a>.</p>
-        </section>
+  <header class="hero">
+    <img src="assets/profile.jpg" alt="Profile Picture" class="profile-pic" />
+    <h1>Your Name</h1>
+    <h2>Full Stack Developer | Computer Engineer</h2>
+    <p>Passionate about building scalable web applications and efficient backend systems.</p>
+    <div class="social-links">
+      <a href="https://github.com/yourusername" target="_blank"><img src="assets/icons/github.svg" alt="GitHub"></a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank"><img src="assets/icons/linkedin.svg" alt="LinkedIn"></a>
+      <a href="mailto:youremail@example.com"><img src="assets/icons/email.svg" alt="Email"></a>
     </div>
+  </header>
+
+  <section class="about">
+    <h3>About Me</h3>
+    <p>I am a software engineer with a background in Computer Engineering. I have experience building full stack applications using modern technologies such as React, Node.js, and MongoDB. I'm enthusiastic about learning and solving real-world problems with clean code and strong architecture.</p>
+    <a class="btn" href="resume/cv.pdf" target="_blank">Download CV</a>
+  </section>
+
+  <section class="projects">
+    <h3>Projects</h3>
+    <div class="project-card">
+      <h4>Project Title</h4>
+      <p>Short description of the project. What does it do? Why is it important?</p>
+      <p><strong>Tech:</strong> React, Node.js, MongoDB</p>
+      <a href="https://github.com/yourusername/project" class="btn" target="_blank">View on GitHub</a>
+    </div>
+    <!-- Repeat project-card as needed -->
+  </section>
+
+  <section class="skills">
+    <h3>Technologies</h3>
+    <ul class="tech-list">
+      <li>React</li>
+      <li>Node.js</li>
+      <li>MongoDB</li>
+      <li>Express</li>
+      <li>TypeScript</li>
+      <li>Python</li>
+      <li>Docker</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h3>Contact</h3>
+    <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
 </body>
 </html>
